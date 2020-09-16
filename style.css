@@ -1,0 +1,189 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.header {
+    width: 100%;
+    display: inline-block;
+    -webkit-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+}
+
+.header div, .header ul {
+    display: inline-block;
+}
+
+.header-logo, .header-menu {
+    display: inline;
+}
+
+.header-logo__img {
+    width: 50px;
+    height: 40px;
+}
+
+.header-menu {
+    float: right;
+    margin: 10px;
+}
+
+.header-menu li {
+    display: inline;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.header-logo__title {
+    display: inherit;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.header-menu li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header-menu li a:hover {
+    color: rebeccapurple;
+}
+
+body {
+    font-family: Arial;
+    font-size: 18px;
+}
+
+.banner {
+    background-image: url("./assets/banner.jpg");
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    box-sizing: border-box;
+    padding-top: 400px;
+    text-align: center;
+
+}
+
+.banner-heading {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.banner-heading, .banner-subtitle {
+    margin: 10px 0;
+}
+
+.banner-button {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    text-transform: uppercase;
+}
+
+.banner-button:hover {
+    color:white;
+    background-color: #5f4a90;
+    cursor: pointer;
+    transition: 1s;
+}
+
+footer {
+    text-align: center;
+    background-color: rebeccapurple;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    color: white;
+}
+
+.card {
+    width: 30%;
+    height: 20%;
+    background-size: cover;
+}
+
+.card:nth-child(1) {
+    background-image: url(./assets/product-1.jpg);
+}
+
+.card:nth-child(2) {
+    background-image: url(./assets/product-2.jpg);
+}
+
+.card:nth-child(3) {
+    background-image: url(./assets/product-3.jpg);
+}
+
+.card:nth-child(4) {
+    background-image: url(./assets/product-4.jpg);
+}
+
+.card:nth-child(5) {
+    background-image: url(./assets/product-5.jpg);
+}
+
+.card:nth-child(6) {
+    background-image: url(./assets/product-6.jpg);
+}
+
+.card button {
+    position: relative;
+    bottom: -104px;
+    left: 28%;
+    padding: 3% 5%;
+    text-transform: uppercase;
+    color: black;
+    background-color: white;
+    border: none;
+}

@@ -1,0 +1,163 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.header {
+    width: 100%;
+    display: inline-block;
+    -webkit-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+    background-color: white;
+}
+
+.header div, .header ul {
+    display: inline-block;
+}
+
+.header-logo, .header-menu {
+    display: inline;
+}
+
+.header-logo__img {
+    width: 50px;
+    height: 40px;
+}
+
+.header-menu {
+    float: right;
+    margin: 10px;
+}
+
+.header-menu li {
+    display: inline;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.header-logo__title {
+    display: inherit;
+    position: absolute;
+    margin-top: 10px;
+    color: black;
+}
+
+.header-menu li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header-menu li a:hover {
+    color: rebeccapurple;
+}
+
+body {
+    font-family: Arial;
+    font-size: 18px;
+}
+
+.form-button {
+    border-radius: 20px;
+    border:none;
+    padding: 5px 30px 5px 30px;
+    color:white;
+    background-color: rebeccapurple;
+    margin: 8px 0;
+  }
+  
+body {
+    background-image: url("https://uploaddeimagens.com.br/images/002/835/807/full/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+form {
+    background-color: white;
+    color: black;
+    border: solid 1px rebeccapurple;
+    border-radius: 15px;
+    padding: 10px;
+    width: 40%;
+    opacity: 85%;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+
+.form-title {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+label {
+    margin: 5px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+main {
+    width: 100%;
+}
+
+.input {
+    border-radius: 10px;
+    border: solid 1px rebeccapurple;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    background-color: rebeccapurple;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+}
